@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E92E5DD11D053CBE00200B3A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E92E5DD01D053CBE00200B3A /* UIView+Extension.m */; };
+		E92E5DD51D054A0400200B3A /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E92E5DD41D054A0400200B3A /* UIBarButtonItem+Extension.m */; };
+		E92E5DD81D054F9700200B3A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92E5DD71D054F9700200B3A /* BaseViewController.m */; };
+		E92E5DDB1D054FC600200B3A /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92E5DDA1D054FC600200B3A /* OneViewController.m */; };
+		E92E5DDE1D054FDB00200B3A /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92E5DDD1D054FDB00200B3A /* TwoViewController.m */; };
+		E92E5DE31D055AC900200B3A /* 图片4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E92E5DDF1D055AC900200B3A /* 图片4.jpg */; };
+		E92E5DE41D055AC900200B3A /* 图片3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E92E5DE01D055AC900200B3A /* 图片3.jpg */; };
+		E92E5DE51D055AC900200B3A /* 图片2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E92E5DE11D055AC900200B3A /* 图片2.jpg */; };
+		E92E5DE61D055AC900200B3A /* 图片1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E92E5DE21D055AC900200B3A /* 图片1.jpg */; };
+		E960308D1D051E1600C2929B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E960308C1D051E1600C2929B /* main.m */; };
+		E96030901D051E1600C2929B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E960308F1D051E1600C2929B /* AppDelegate.m */; };
+		E96030931D051E1600C2929B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96030921D051E1600C2929B /* ViewController.m */; };
+		E96030961D051E1600C2929B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96030941D051E1600C2929B /* Main.storyboard */; };
+		E96030981D051E1600C2929B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96030971D051E1600C2929B /* Assets.xcassets */; };
+		E960309B1D051E1600C2929B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96030991D051E1600C2929B /* LaunchScreen.storyboard */; };
+		E96030A61D051E1600C2929B /* ZYFrameWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E96030A51D051E1600C2929B /* ZYFrameWorkTests.m */; };
+		E96030B11D051E1600C2929B /* ZYFrameWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E96030B01D051E1600C2929B /* ZYFrameWorkUITests.m */; };
+		E96030C11D051E7400C2929B /* ZYTabarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96030C01D051E7400C2929B /* ZYTabarController.m */; };
+		E96030C41D051EA100C2929B /* ZYNavigationContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = E96030C31D051EA100C2929B /* ZYNavigationContoller.m */; };
+		E96030C71D051ED800C2929B /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96030C61D051ED800C2929B /* StartViewController.m */; };
+		E96030CA1D051F1400C2929B /* ZYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E96030C91D051F1400C2929B /* ZYTabBar.m */; };
+		E96030CD1D0520B900C2929B /* ZYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E96030CC1D0520B900C2929B /* ZYButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E96030A21D051E1600C2929B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96030801D051E1600C2929B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96030871D051E1600C2929B;
+			remoteInfo = ZYFrameWork;
+		};
+		E96030AD1D051E1600C2929B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96030801D051E1600C2929B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96030871D051E1600C2929B;
+			remoteInfo = ZYFrameWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E92E5DCF1D053CBE00200B3A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E92E5DD01D053CBE00200B3A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E92E5DD21D0541A200200B3A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E92E5DD31D054A0400200B3A /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		E92E5DD41D054A0400200B3A /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		E92E5DD61D054F9700200B3A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E92E5DD71D054F9700200B3A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E92E5DD91D054FC600200B3A /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		E92E5DDA1D054FC600200B3A /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		E92E5DDC1D054FDB00200B3A /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		E92E5DDD1D054FDB00200B3A /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		E92E5DDF1D055AC900200B3A /* 图片4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "图片4.jpg"; sourceTree = "<group>"; };
+		E92E5DE01D055AC900200B3A /* 图片3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "图片3.jpg"; sourceTree = "<group>"; };
+		E92E5DE11D055AC900200B3A /* 图片2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "图片2.jpg"; sourceTree = "<group>"; };
+		E92E5DE21D055AC900200B3A /* 图片1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "图片1.jpg"; sourceTree = "<group>"; };
+		E96030881D051E1600C2929B /* ZYFrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYFrameWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E960308C1D051E1600C2929B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E960308E1D051E1600C2929B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E960308F1D051E1600C2929B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E96030911D051E1600C2929B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E96030921D051E1600C2929B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E96030951D051E1600C2929B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E96030971D051E1600C2929B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E960309A1D051E1600C2929B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E960309C1D051E1600C2929B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96030A11D051E1600C2929B /* ZYFrameWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYFrameWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96030A51D051E1600C2929B /* ZYFrameWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFrameWorkTests.m; sourceTree = "<group>"; };
+		E96030A71D051E1600C2929B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96030AC1D051E1600C2929B /* ZYFrameWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYFrameWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96030B01D051E1600C2929B /* ZYFrameWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFrameWorkUITests.m; sourceTree = "<group>"; };
+		E96030B21D051E1600C2929B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96030BF1D051E7400C2929B /* ZYTabarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTabarController.h; sourceTree = "<group>"; };
+		E96030C01D051E7400C2929B /* ZYTabarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabarController.m; sourceTree = "<group>"; };
+		E96030C21D051EA100C2929B /* ZYNavigationContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNavigationContoller.h; sourceTree = "<group>"; };
+		E96030C31D051EA100C2929B /* ZYNavigationContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNavigationContoller.m; sourceTree = "<group>"; };
+		E96030C51D051ED800C2929B /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		E96030C61D051ED800C2929B /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		E96030C81D051F1400C2929B /* ZYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTabBar.h; sourceTree = "<group>"; };
+		E96030C91D051F1400C2929B /* ZYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabBar.m; sourceTree = "<group>"; };
+		E96030CB1D0520B900C2929B /* ZYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYButton.h; sourceTree = "<group>"; };
+		E96030CC1D0520B900C2929B /* ZYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E96030851D051E1600C2929B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E960309E1D051E1600C2929B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96030A91D051E1600C2929B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E960307F1D051E1600C2929B = {
+			isa = PBXGroup;
+			children = (
+				E960308A1D051E1600C2929B /* ZYFrameWork */,
+				E96030A41D051E1600C2929B /* ZYFrameWorkTests */,
+				E96030AF1D051E1600C2929B /* ZYFrameWorkUITests */,
+				E96030891D051E1600C2929B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E96030891D051E1600C2929B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E96030881D051E1600C2929B /* ZYFrameWork.app */,
+				E96030A11D051E1600C2929B /* ZYFrameWorkTests.xctest */,
+				E96030AC1D051E1600C2929B /* ZYFrameWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E960308A1D051E1600C2929B /* ZYFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				E96030BE1D051E3000C2929B /* AllFrameWokContent */,
+				E960308E1D051E1600C2929B /* AppDelegate.h */,
+				E960308F1D051E1600C2929B /* AppDelegate.m */,
+				E92E5DD61D054F9700200B3A /* BaseViewController.h */,
+				E92E5DD71D054F9700200B3A /* BaseViewController.m */,
+				E92E5DDF1D055AC900200B3A /* 图片4.jpg */,
+				E92E5DE01D055AC900200B3A /* 图片3.jpg */,
+				E92E5DE11D055AC900200B3A /* 图片2.jpg */,
+				E92E5DE21D055AC900200B3A /* 图片1.jpg */,
+				E92E5DD91D054FC600200B3A /* OneViewController.h */,
+				E92E5DDA1D054FC600200B3A /* OneViewController.m */,
+				E92E5DDC1D054FDB00200B3A /* TwoViewController.h */,
+				E92E5DDD1D054FDB00200B3A /* TwoViewController.m */,
+				E96030911D051E1600C2929B /* ViewController.h */,
+				E96030921D051E1600C2929B /* ViewController.m */,
+				E96030941D051E1600C2929B /* Main.storyboard */,
+				E96030971D051E1600C2929B /* Assets.xcassets */,
+				E96030991D051E1600C2929B /* LaunchScreen.storyboard */,
+				E92E5DD21D0541A200200B3A /* PrefixHeader.pch */,
+				E960309C1D051E1600C2929B /* Info.plist */,
+				E960308B1D051E1600C2929B /* Supporting Files */,
+			);
+			path = ZYFrameWork;
+			sourceTree = "<group>";
+		};
+		E960308B1D051E1600C2929B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E960308C1D051E1600C2929B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E96030A41D051E1600C2929B /* ZYFrameWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E96030A51D051E1600C2929B /* ZYFrameWorkTests.m */,
+				E96030A71D051E1600C2929B /* Info.plist */,
+			);
+			path = ZYFrameWorkTests;
+			sourceTree = "<group>";
+		};
+		E96030AF1D051E1600C2929B /* ZYFrameWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E96030B01D051E1600C2929B /* ZYFrameWorkUITests.m */,
+				E96030B21D051E1600C2929B /* Info.plist */,
+			);
+			path = ZYFrameWorkUITests;
+			sourceTree = "<group>";
+		};
+		E96030BE1D051E3000C2929B /* AllFrameWokContent */ = {
+			isa = PBXGroup;
+			children = (
+				E96030BF1D051E7400C2929B /* ZYTabarController.h */,
+				E96030C01D051E7400C2929B /* ZYTabarController.m */,
+				E96030C21D051EA100C2929B /* ZYNavigationContoller.h */,
+				E96030C31D051EA100C2929B /* ZYNavigationContoller.m */,
+				E96030C51D051ED800C2929B /* StartViewController.h */,
+				E96030C61D051ED800C2929B /* StartViewController.m */,
+				E96030C81D051F1400C2929B /* ZYTabBar.h */,
+				E96030C91D051F1400C2929B /* ZYTabBar.m */,
+				E96030CB1D0520B900C2929B /* ZYButton.h */,
+				E96030CC1D0520B900C2929B /* ZYButton.m */,
+				E92E5DCF1D053CBE00200B3A /* UIView+Extension.h */,
+				E92E5DD01D053CBE00200B3A /* UIView+Extension.m */,
+				E92E5DD31D054A0400200B3A /* UIBarButtonItem+Extension.h */,
+				E92E5DD41D054A0400200B3A /* UIBarButtonItem+Extension.m */,
+			);
+			name = AllFrameWokContent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E96030871D051E1600C2929B /* ZYFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96030B51D051E1600C2929B /* Build configuration list for PBXNativeTarget "ZYFrameWork" */;
+			buildPhases = (
+				E96030841D051E1600C2929B /* Sources */,
+				E96030851D051E1600C2929B /* Frameworks */,
+				E96030861D051E1600C2929B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYFrameWork;
+			productName = ZYFrameWork;
+			productReference = E96030881D051E1600C2929B /* ZYFrameWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E96030A01D051E1600C2929B /* ZYFrameWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96030B81D051E1600C2929B /* Build configuration list for PBXNativeTarget "ZYFrameWorkTests" */;
+			buildPhases = (
+				E960309D1D051E1600C2929B /* Sources */,
+				E960309E1D051E1600C2929B /* Frameworks */,
+				E960309F1D051E1600C2929B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E96030A31D051E1600C2929B /* PBXTargetDependency */,
+			);
+			name = ZYFrameWorkTests;
+			productName = ZYFrameWorkTests;
+			productReference = E96030A11D051E1600C2929B /* ZYFrameWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E96030AB1D051E1600C2929B /* ZYFrameWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96030BB1D051E1600C2929B /* Build configuration list for PBXNativeTarget "ZYFrameWorkUITests" */;
+			buildPhases = (
+				E96030A81D051E1600C2929B /* Sources */,
+				E96030A91D051E1600C2929B /* Frameworks */,
+				E96030AA1D051E1600C2929B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E96030AE1D051E1600C2929B /* PBXTargetDependency */,
+			);
+			name = ZYFrameWorkUITests;
+			productName = ZYFrameWorkUITests;
+			productReference = E96030AC1D051E1600C2929B /* ZYFrameWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E96030801D051E1600C2929B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "LeMo-test";
+				TargetAttributes = {
+					E96030871D051E1600C2929B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E96030A01D051E1600C2929B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E96030871D051E1600C2929B;
+					};
+					E96030AB1D051E1600C2929B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E96030871D051E1600C2929B;
+					};
+				};
+			};
+			buildConfigurationList = E96030831D051E1600C2929B /* Build configuration list for PBXProject "ZYFrameWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E960307F1D051E1600C2929B;
+			productRefGroup = E96030891D051E1600C2929B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E96030871D051E1600C2929B /* ZYFrameWork */,
+				E96030A01D051E1600C2929B /* ZYFrameWorkTests */,
+				E96030AB1D051E1600C2929B /* ZYFrameWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E96030861D051E1600C2929B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E960309B1D051E1600C2929B /* LaunchScreen.storyboard in Resources */,
+				E96030981D051E1600C2929B /* Assets.xcassets in Resources */,
+				E96030961D051E1600C2929B /* Main.storyboard in Resources */,
+				E92E5DE51D055AC900200B3A /* 图片2.jpg in Resources */,
+				E92E5DE31D055AC900200B3A /* 图片4.jpg in Resources */,
+				E92E5DE41D055AC900200B3A /* 图片3.jpg in Resources */,
+				E92E5DE61D055AC900200B3A /* 图片1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E960309F1D051E1600C2929B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96030AA1D051E1600C2929B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E96030841D051E1600C2929B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92E5DDE1D054FDB00200B3A /* TwoViewController.m in Sources */,
+				E92E5DD11D053CBE00200B3A /* UIView+Extension.m in Sources */,
+				E96030931D051E1600C2929B /* ViewController.m in Sources */,
+				E92E5DD81D054F9700200B3A /* BaseViewController.m in Sources */,
+				E92E5DDB1D054FC600200B3A /* OneViewController.m in Sources */,
+				E96030901D051E1600C2929B /* AppDelegate.m in Sources */,
+				E96030CA1D051F1400C2929B /* ZYTabBar.m in Sources */,
+				E92E5DD51D054A0400200B3A /* UIBarButtonItem+Extension.m in Sources */,
+				E960308D1D051E1600C2929B /* main.m in Sources */,
+				E96030CD1D0520B900C2929B /* ZYButton.m in Sources */,
+				E96030C71D051ED800C2929B /* StartViewController.m in Sources */,
+				E96030C41D051EA100C2929B /* ZYNavigationContoller.m in Sources */,
+				E96030C11D051E7400C2929B /* ZYTabarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E960309D1D051E1600C2929B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96030A61D051E1600C2929B /* ZYFrameWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96030A81D051E1600C2929B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96030B11D051E1600C2929B /* ZYFrameWorkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E96030A31D051E1600C2929B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96030871D051E1600C2929B /* ZYFrameWork */;
+			targetProxy = E96030A21D051E1600C2929B /* PBXContainerItemProxy */;
+		};
+		E96030AE1D051E1600C2929B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96030871D051E1600C2929B /* ZYFrameWork */;
+			targetProxy = E96030AD1D051E1600C2929B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E96030941D051E1600C2929B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E96030951D051E1600C2929B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E96030991D051E1600C2929B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E960309A1D051E1600C2929B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E96030B31D051E1600C2929B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E96030B41D051E1600C2929B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E96030B61D051E1600C2929B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				GCC_PREFIX_HEADER = ZYFrameWork/PrefixHeader.pch;
+				INFOPLIST_FILE = ZYFrameWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E96030B71D051E1600C2929B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				GCC_PREFIX_HEADER = ZYFrameWork/PrefixHeader.pch;
+				INFOPLIST_FILE = ZYFrameWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E96030B91D051E1600C2929B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYFrameWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYFrameWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYFrameWork.app/ZYFrameWork";
+			};
+			name = Debug;
+		};
+		E96030BA1D051E1600C2929B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYFrameWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYFrameWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYFrameWork.app/ZYFrameWork";
+			};
+			name = Release;
+		};
+		E96030BC1D051E1600C2929B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYFrameWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYFrameWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYFrameWork;
+			};
+			name = Debug;
+		};
+		E96030BD1D051E1600C2929B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYFrameWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYFrameWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYFrameWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E96030831D051E1600C2929B /* Build configuration list for PBXProject "ZYFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96030B31D051E1600C2929B /* Debug */,
+				E96030B41D051E1600C2929B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96030B51D051E1600C2929B /* Build configuration list for PBXNativeTarget "ZYFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96030B61D051E1600C2929B /* Debug */,
+				E96030B71D051E1600C2929B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96030B81D051E1600C2929B /* Build configuration list for PBXNativeTarget "ZYFrameWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96030B91D051E1600C2929B /* Debug */,
+				E96030BA1D051E1600C2929B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96030BB1D051E1600C2929B /* Build configuration list for PBXNativeTarget "ZYFrameWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96030BC1D051E1600C2929B /* Debug */,
+				E96030BD1D051E1600C2929B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E96030801D051E1600C2929B /* Project object */;
+}
